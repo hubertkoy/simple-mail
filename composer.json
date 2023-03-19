@@ -1,0 +1,13 @@
+{
+    "name": "hubert/contact",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hubert\\Contact\\": "src/"
+        }
+    }
+}
